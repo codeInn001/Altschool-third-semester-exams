@@ -10,7 +10,7 @@ import HomeView from './views/HomeView.vue';
     <div class="wrapper">
       
       
-      <HomeView />
+      <!-- <HomeView /> -->
     </div>
   </header>
 
