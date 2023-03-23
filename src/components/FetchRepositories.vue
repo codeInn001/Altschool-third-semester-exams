@@ -44,7 +44,7 @@ const paginatedRepos = computed({
             <button class="repo-details"><img src="https://img.icons8.com/dotty/32/F04FA5/repository.png"/> View Details</button>
           </RouterLink>
           
-            <button><img src="https://img.icons8.com/windows/32/F04FA5/github.png"/> Visit Github Page</button>
+           <a v-bind:href="repo.git_url"> <button><img src="https://img.icons8.com/windows/32/F04FA5/github.png"/> Visit Github Page</button></a>
           
         </div>
       </div>

@@ -17,7 +17,7 @@ const show = ref(false)
     <img @click="showMenu" class="menu-bar show" src="https://img.icons8.com/ios-filled/100/E08CCC/menu-rounded.png"/>
     <div :class="show ? 'show nav-links' : 'hidden nav-links'" >
         <RouterLink active-class="active-link" class="nav-link" to="/">Home</RouterLink>
-        <RouterLink active-class="active-link" class="nav-link" to="/about">About</RouterLink>
+        <RouterLink active-class="active-link" class="nav-link" to="/aboutj">Error</RouterLink>
         <RouterLink active-class="active-link" class="nav-link" to="/repositories">Repositories</RouterLink>
     </div>
  </nav>
